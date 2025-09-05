@@ -3,7 +3,107 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: Agdasima;
+  src: url(./fonts/Agdasima-Regular.ttf);
+}
+@font-face {
+  font-family: American;
+  src: url(./fonts/American\ Captain.ttf);
+}
+@font-face {
+  font-family: AMORIA;
+  src: url(./fonts/AMORIA.otf);
+}
+@font-face {
+  font-family: Amperzand;
+  src: url(./fonts/Amperzand.ttf);
+}
+@font-face {
+  font-family: Bravecho;
+  src: url(./fonts/Bravecho.otf);
+}
+@font-face {
+  font-family: Comics;
+  src: url(./fonts/Comic\ Jungle.ttf);
+}
+@font-face {
+  font-family: Fast;
+  src: url(./fonts/Fast\ Hand.otf);
+}
+@font-face {
+  font-family: High;
+  src: url(./fonts/High\ Jersey.ttf);
+}
+@font-face {
+  font-family: Jember;
+  src: url(./fonts/Jember\ Sketch.ttf);
+}
+@font-face {
+  font-family: LT;
+  src: url(./fonts/LT\ Funk.otf);
+}
+@font-face {
+  font-family: MAGNUM;
+  src: url(./fonts/MAGNUM__.TTF);
+}
+@font-face {
+  font-family: Munake;
+  src: url(./fonts/Munake-Demo.ttf);
+}
+@font-face {
+  font-family: MUSCULAR;
+  src: url(./fonts/MUSCULAR\ STRENGTH\ Bold.ttf);
+}
+@font-face {
+  font-family: OMEGLE;
+  src: url(./fonts/OMEGLE.ttf);
+}
+@font-face {
+  font-family: Pask;
+  src: url(./fonts/Pask.otf);
+}
+@font-face {
+  font-family: Payback;
+  src: url(./fonts/Payback.otf);
+}
+@font-face {
+  font-family: Payback;
+  src: url(./fonts/PaybAck.ttf);
+}
+@font-face {
+  font-family: Reglisse;
+  src: url(./fonts/Reglisse.otf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Skyscapers;
+  src: url(./fonts/Skyscapers.ttf);
+}
+
 @theme inline {
+  --font-Agdasima: Agdasima;
+  --font-American: American;
+  --font-AMORIA: AMORIA;
+  --font-Amperzand: Amperzand;
+  --font-Bravecho: Bravecho;
+  --font-Comics: Comics;
+  --font-Fast: Fast;
+  --font-High: High;
+  --font-Jember: Jember;
+  --font-LT: LT;
+  --font-MAGNUM: MAGNUM;
+  --font-Munake: Munake;
+  --font-MUSCULAR: MUSCULAR;
+  --font-OMEGLE: OMEGLE;
+  --font-Pask: Pask;
+  --font-Payback: Payback;
+  --font-Reglisse: Reglisse;
+  --font-Roboto: Roboto;
+  --font-Skyscapers: Skyscapers;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
