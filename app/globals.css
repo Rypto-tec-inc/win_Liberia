@@ -212,11 +212,80 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+.background {
+  background-image: url("/back.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.background-2 {
+  background-image: url("/back-1.png");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+.background-3 {
+  background-image: url("/winner.webp");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-4 {
+  background-image: url("/jack.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.background-5 {
+  background-image: url("/777.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.PhoneInputInput {
+  border: none !important;
+  width: 120px !important;
+}
+.PhoneInputInput:active {
+  border: none !important;
+  outline: none !important;
+}
+.PhoneInputInput:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+/* body::-webkit-scrollbar {
+  width: 7px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #ffffff10;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff4b;
+  border-radius: 20px;
+} */
+
+.clipboy {
+  clip-path: polygon(49% 0, 56% 0, 100% 100%, 0% 100%);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground scroll-auto;
+  }
+  motion-2 {
+    @apply transition-all duration-500 ease-linear;
   }
 }
